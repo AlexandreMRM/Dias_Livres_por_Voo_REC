@@ -427,7 +427,7 @@ if alterar_configuracoes:
 
 row01 = st.columns(3)
 
-if st.session_state.mostrar_config == True:
+if st.session_state.mostrar_config == True and 'df_router_2_bruto' in st.session_state:
 
     with row01[0]:
 
